@@ -2,6 +2,7 @@ from django.shortcuts import render
 import requests
 from urllib.request import urlretrieve
 
+apiKey = 'g3oEjV4urmjOu47SfmDgIvTMvnDq2aD8awgd0Sbu'
 
 
 def show(request):
