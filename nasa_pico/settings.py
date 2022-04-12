@@ -72,7 +72,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'nasa_pico.wsgi.application'
+WSGI_APPLICATION = 'wsgi.application'
 
 
 # Database
