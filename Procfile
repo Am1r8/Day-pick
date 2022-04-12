@@ -1,1 +1,1 @@
-web: gunicorn  nasa_pico:application -b 0.0.0.0:\$PORT
+web: python manage.py 0.0.0.0:\$PORT
