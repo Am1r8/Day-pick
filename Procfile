@@ -1,2 +1,1 @@
-web: gunicorn django_project.wsgi:application --log-file - --log-level debug
-manage.py migrate
+web: gunicorn djangoherokuapp.wsgi --log-file -

@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-k_19b8m#7!v*+p38gjwiv&*s^#p5dve6s@k_)q@=%u#4vdgdsj
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['nasa-pico.herokuapp.com']
 
 
 # Application definition
