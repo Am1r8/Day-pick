@@ -1,1 +1,1 @@
-web: gunicorn  nasa_pico:application -b xx.xxx.xxx.xx:8000
+web: gunicorn  nasa_pico:application -b 0.0.0.0:\$PORT
