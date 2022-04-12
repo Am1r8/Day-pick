@@ -1,1 +1,2 @@
-web: python manage.py runserver 0.0.0.0:\$PORT
+web: gunicorn django_project.wsgi:application --log-file - --log-level debug
+manage.py migrate
