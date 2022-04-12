@@ -1,1 +1,1 @@
-web: gunicorn  nasa_pico:application -b --log-file -
+web: gunicorn  nasa_pico:application -b xx.xxx.xxx.xx:8000
