@@ -1,1 +1,1 @@
-web: gunicorn nasa_pico.wsgi --log-file -
+web: gunicorn  nasa_pico:application -b --log-file -
