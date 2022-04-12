@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-k_19b8m#7!v*+p38gjwiv&*s^#p5dve6s@k_)q@=%u#4vdgdsj
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['.vercel.app']
 
 
 # Application definition
@@ -74,12 +74,7 @@ WSGI_APPLICATION = 'nasa_pico.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
+DATABASES = {}
 
 
 # Password validation

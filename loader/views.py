@@ -7,9 +7,7 @@ apiKey = 'g3oEjV4urmjOu47SfmDgIvTMvnDq2aD8awgd0Sbu'
 
 def show(request):
     URL_APOD = "https://api.nasa.gov/planetary/apod"
-    date = '2020-02-22'
     params = {
-        'date': date,
         'api_key':apiKey,
         'hd':'True'
     }
